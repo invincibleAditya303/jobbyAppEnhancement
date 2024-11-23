@@ -1,0 +1,153 @@
+.job-item-link {
+  outline: none;
+}
+
+.job-list-item {
+  min-height: 50vh;
+  width: 100%;
+  background-color: #475569;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.company-job-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 5%;
+}
+
+.company-logo {
+  height: 10vh;
+  width: 10vw;
+  margin-right: 15px;
+}
+
+.job-role-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.job-role {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-img {
+  color: #fbbf24;
+  height: 3vh;
+  width: 3vw;
+}
+
+.rating {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.job-details-container {
+  height: 7vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px #b6c5ff solid;
+}
+
+.job-profile-container {
+  height: 7vh;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-location-container {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.location-img {
+  color: #ffffff;
+  height: 3vh;
+  width: 3vw;
+  margin-right: 5px;
+}
+
+.location {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.package {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.description-container {
+  width: 90%;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 767px) {
+  .company-logo {
+    height: 5vh;
+    width: 5vw;
+  }
+
+  .job-role {
+    font-size: 12px;
+  }
+
+  .rating {
+    font-size: 12px;
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .package {
+    font-size: 14px;
+  }
+
+  .description-heading {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+}
